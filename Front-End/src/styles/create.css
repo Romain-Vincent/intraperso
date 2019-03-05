@@ -1,0 +1,61 @@
+html,body {
+    height: 100%;
+    background-color: #f7f9fb;
+    /*font-size: 14px;*/
+    color: #212529;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.createform li {
+    font-size: 18px;
+    padding-bottom: 5px;
+    width: 85%;
+}
+
+.createform li:hover {
+    background-color: #80bfff;
+}
+
+.createform {
+    position: absolute;
+    display: block;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    background-color: #e6e6e6;
+    border-radius: 10%;
+    box-shadow: 5px 8px grey;
+}
+
+.createform .container {
+    position: absolute;
+    display: block;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.createform .arrow {
+    position: fixed;
+    display: block;
+    width: 60px;
+    height: 50px;
+    top: 2%;
+    left: 1%;
+    background-image: url("../styles/img/arrow.png");
+    background-size: 60px 50px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.createform .title {
+    position: absolute;
+    display: block;
+    width: 40%;
+    left: 30%;
+}

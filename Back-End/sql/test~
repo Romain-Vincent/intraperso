@@ -1,0 +1,5 @@
+START TRANSATION;
+SELECT MAX(P_ID) + 1 INTO @id FROM Projects.Projects;
+SELECT @id;
+ROLLBACK;
+

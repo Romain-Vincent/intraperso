@@ -1,0 +1,23 @@
+CREATE PROCEDURE `is_valid_user`(username varchar(255), passwd varchar(255))
+BEGIN
+
+	DECLARE _user VARCHAR(255) DEFAULT NULL;
+	DECLARE	_passwd VARCHAR(255) DEFAULT NULL;
+	    
+	SELECT U_Name, U_Password
+	INTO _user, _passwd
+	FROM Projects.Users
+	WHERE U_Email = username;
+    
+	IF isnull(_user)
+	THEN
+		SELECT -1 AS Res, "Unknown user" AS Msg;
+	ELSE 
+		IF _passwd != passwd
+        	THEN
+			SELECT -1 AS Res, "Invalid password" AS Msg;
+		ELSE 
+			SELECT 0 AS Res, "Validated credentials" AS Msg;
+		END IF;
+	END IF;
+END

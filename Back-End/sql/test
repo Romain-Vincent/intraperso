@@ -1,0 +1,8 @@
+
+CALL is_valid_project('Stef', 'romain.vincent@epitech.eu',
+                      'elsie.frenzel@epitech.eu; griselda.raglin@epitech.eu; maritza.mcauliffe@epitech.eu',
+                      'This is the description of the project Stef'	     );
+
+
+DELETE FROM Projects.StudentsOfProject WHERE P_ID = 106;
+DELETE FROM Projects.Projects WHERE P_ID = 106;

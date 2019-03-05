@@ -1,0 +1,163 @@
+html,body {
+    height: 100%;
+    background-color: #f7f9fb;
+    font-size: 14px;
+    color: #212529;
+}
+
+.register .brand {
+    margin: 40px auto;
+}
+
+.register .brand img {
+    width: 100%;
+    max-width: 214px;
+    height: 79px;
+    display: block;
+    margin: 0 auto;
+}
+
+.register .card-wrapper {
+    width: 400px;
+}
+
+.register .card {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.register .card.fat {
+    padding: 10px;
+}
+
+.register .card .card-title {
+    margin-bottom: 15px;
+}
+
+.register .form-control {
+    border-width: 2.3px;
+}
+
+.register .form-group label {
+    width: 100%;
+}
+
+.register .btn.btn-block {
+    padding: 12px 10px;
+    background: #0984e3;
+    margin-top: .50rem;
+    border-radius: .25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: transparent;
+}
+
+.register .form-control {
+    color: #212529;
+}
+
+.register .form-control:focus {
+    color: #212529;
+    border-color: #0984e3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.register i {
+    margin-right: 3px;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+.register a {
+    color: #0984e3;
+}
+
+.register .invalid-feedback {
+    font-size: 100% !important;
+}
+
+.btn-toggle {
+    margin: 0 1.6rem;
+    padding: 0;
+    position: relative;
+    border: none;
+    height: 1.5rem;
+    width: 3rem;
+    border-radius: 1.5rem;
+    color:#0984e3;
+    background: #ced4da;
+}
+.btn-toggle:focus,
+.btn-toggle.focus,
+.btn-toggle:focus.active,
+.btn-toggle.focus.active {
+    outline: none;
+}
+.btn-toggle:before,
+.btn-toggle:after {
+    line-height: 1.5rem;
+    width: 4rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    transition: opacity 0.25s;
+}
+.btn-toggle:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f183";
+    left: -3rem;
+    font-size: 20px;
+}
+.btn-toggle:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f182";
+    right: -3rem;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.btn-toggle > .handle {
+    position: absolute;
+    top: 0.1875rem;
+    left: 0.1875rem;
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 1.125rem;
+    background: #fff;
+    transition: left 0.25s;
+}
+.btn-toggle.active {
+    transition: background-color 0.25s;
+}
+.btn-toggle.active > .handle {
+    left: 1.6875rem;
+    transition: left 0.25s;
+}
+.btn-toggle.active:before {
+    opacity: 0.5;
+}
+.btn-toggle.active:after {
+    opacity: 1;
+}
+
+@media screen and (max-width: 425px) {
+    .register .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .register .card.fat {
+        padding: 0;
+    }
+
+    .register .card.fat .card-body {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,134 @@
+/*
+html,body {
+    height: 100%;
+    background-color: #f7f9fb;
+    font-size: 14px;
+    color: #212529;
+}
+
+.my-login-page .brand {
+    margin: 40px auto;
+}
+
+.my-login-page .brand img {
+    width: 100%;
+    height: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.my-login-page .card-wrapper {
+    width: 100%;
+}
+
+.my-login-page .card {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.my-login-page .card.fat {
+    padding: 10px;
+}
+
+.my-login-page .card .card-title {
+    margin-bottom: 15px;
+}
+
+.my-login-page .form-control {
+    border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+    width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+    padding: 12px 10px;
+    background: #0984e3;
+    margin-top: .50rem;
+    border-radius: .25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: transparent;
+}
+
+.my-login-page .form-control {
+    color: #212529;
+}
+
+.my-login-page .form-control:focus {
+    color: #212529;
+    border-color: #0984e3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.my-login-page i {
+    margin-right: 3px;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+.my-login-page a {
+    color: #0984e3;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background: #0984e3;
+    box-shadow: none;
+}
+
+
+.profile-picture {
+    position: relative;
+    left : 25%;
+    height : 250px;
+    width: 50%;
+}
+
+.picture {
+    display: block;
+    height: 100%;
+    background-image:url(./img/avatar.png);
+    border-radius: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.edit {
+    position: relative;
+    left: 95%;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
+.edit-button {
+    height: 100%;
+    width: 100%;
+    background-image: url(./img/gear.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 20%;
+}
+
+@media screen and (max-width: 425px) {
+    .my-login-page .card-wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .my-login-page .card.fat {
+        padding: 0;
+    }
+
+    .my-login-page .card.fat .card-body {
+        padding: 15px;
+    }
+}
+*/

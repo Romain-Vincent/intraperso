@@ -1,0 +1,101 @@
+html,body {
+    height: 100%;
+    background-color: #f7f9fb;
+    font-size: 14px;
+    color: #212529;
+}
+
+.login .brand {
+    margin: 40px auto;
+}
+
+.login .brand img {
+    width: 100%;
+    max-width: 214px;
+    height: 79px;
+    display: block;
+    margin: 0 auto;
+}
+
+.login .card-wrapper {
+    width: 400px;
+}
+
+.login .card {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.login .card.fat {
+    padding: 10px;
+}
+
+.login .card .card-title {
+    margin-bottom: 15px;
+}
+
+.login .form-control {
+    border-width: 2.3px;
+}
+
+.login .form-group label {
+    width: 100%;
+}
+
+.login .btn.btn-block {
+    padding: 12px 10px;
+    background: #0984e3;
+    margin-top: .50rem;
+    border-radius: .25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: transparent;
+}
+
+.login .form-control {
+    color: #212529;
+}
+
+.login .form-control:focus {
+    color: #212529;
+    border-color: #0984e3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.login i {
+    margin-right: 3px;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+.login a {
+    color: #0984e3;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background: #0984e3;
+    box-shadow: none;
+}
+
+.login .invalid-feedback {
+    font-size: 100% !important;
+}
+
+@media screen and (max-width: 425px) {
+    .login .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .login .card.fat {
+        padding: 0;
+    }
+
+    .login .card.fat .card-body {
+        padding: 15px;
+    }
+}

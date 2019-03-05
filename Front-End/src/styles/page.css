@@ -1,0 +1,159 @@
+html,body {
+    height: 100%;
+    background-color: #f7f9fb;
+    /*font-size: 14px;*/
+    color: #212529;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.global li {
+    font-size: 18px;
+    padding-bottom: 5px;
+    width: 85%;
+}
+
+.global li:hover {
+    background-color: #80bfff;
+}
+
+.global {
+    position: absolute;
+    display: block;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+    background-color: #e6e6e6;
+    border-radius: 10%;
+    box-shadow: 5px 8px grey;
+}
+
+.global .text {
+    position: absolute;
+    display: block;
+    top: 50%;
+    font-size: 55px;
+    left: 10px;
+    /*font-size: 18px;*/
+}
+
+.global .groupname {
+    position: absolute;
+    display: block;
+    top: 5%;
+    height: 80px;
+    width: 50%;
+    font-size: 55px;
+}
+
+.global .groupmember {
+    position: absolute;
+    display: block;
+    top: 27%;
+    font-size: 18px;
+    left: 10px;
+}
+
+.global .description {
+    position: absolute;
+    display: block;
+    bottom: 0%;
+    width: 100%;
+    height: 30%;
+    font-size: 18px;
+    left: 10px;
+}
+
+.global .face {
+    position: relative;
+    display: block;
+    height : 100%;
+    width: 100%;
+    background-image: url("./img/avatar_male.png");
+}
+
+.global .arrow {
+    position: fixed;
+    display: block;
+    width: 60px;
+    height: 50px;
+    top: 2%;
+    left: 1%;
+    background-image: url("../styles/img/arrow.png");
+    background-size: 60px 50px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.global .nav {
+    position: fixed;
+    display: block;
+    top: 30%;
+    left: 0%;
+    width: 7%;
+    height: 10%;
+    background-color: lightgray;
+    border-radius: 10%;
+}
+
+.global .query {
+    position: absolute;
+    display: block;
+    top: 25%;
+    left: 35%;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.global .member_mail {
+    position: absolute;
+    display: block;
+    top: 32%;
+    left: 35%;
+    width: 350px;
+    height: 30px;
+}
+
+.global .submit {
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 43%;
+    width: 150px;
+    height: 25px;
+    font-size: 18px;
+}
+
+.global .notes {
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 60%;
+    top: 20%;
+    left: 10%;
+    border-radius: 10px;
+    box-shadow: 2px 5px grey;
+    background-color: lightblue;
+    opacity: 50%;
+}
+
+.global .soutenance {
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+p {
+    position: fixed;
+    display: block;
+    top: 17%;
+    right: 26%;
+    width: 20%;
+    height: 20%;
+    font-size: 18px;
+    background-color: white;
+}

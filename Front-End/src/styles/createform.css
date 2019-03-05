@@ -1,0 +1,102 @@
+html,body {
+    height: 100%;
+    background-color: #f7f9fb;
+    font-size: 14px;
+    color: #212529;
+}
+
+.form {
+    position: absolute;
+    display: block;
+    width: 40%;
+    top: 5%;
+    left: 30%;
+    height: 50%;
+    border-radius: 2%;
+    background-color: #d9d9d9;
+}
+
+.form .loginchief {
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.form .logininput {
+    width: 300px;
+}
+
+.form .loginmembers {
+    position: absolute;
+    display: block;
+    top: 80px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.form .projectname {
+    position: absolute;
+    display: block;
+    top: 150px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.form .technologies {
+    position: absolute;
+    display: block;
+    top: 220px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.form .ambition {
+    position: absolute;
+    display: block;
+    top: 290px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.form .competition {
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.form .description {
+    position: absolute;
+    display: block;
+    top: 80px;
+    right: 10px;
+    width: 350px;
+    height: 120px;
+}
+
+.form .git {
+    position: absolute;
+    display: block;
+    top: 220px;
+    right: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.form .submit {
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    left: 40%;
+    width: 70px;
+    height: 30px;
+}
